@@ -1,0 +1,11 @@
+{
+  "name": "nunjucks",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.{js,html} dist/",
+    "bench": "NODE_ENV=production node dist/index.js"
+  },
+  "devDependencies": {
+    "nunjucks": "3.2.4"
+  }
+}
