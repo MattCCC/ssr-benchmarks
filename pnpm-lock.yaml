@@ -13,26 +13,14 @@ importers:
         version: 3.0.0
 
   methods/ejs-simple:
-    dependencies:
-      node-stdev:
-        specifier: ^1.0.1
-        version: 1.0.1
     devDependencies:
       ejs:
         specifier: 3.1.9
         version: 3.1.9
 
-  methods/vanilla-literals:
-    dependencies:
-      node-stdev:
-        specifier: ^1.0.1
-        version: 1.0.1
+  methods/vanilla-literals: {}
 
-  methods/vanilla-simple:
-    dependencies:
-      node-stdev:
-        specifier: ^1.0.1
-        version: 1.0.1
+  methods/vanilla-simple: {}
 
 packages:
 
@@ -121,10 +109,6 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /lodash@4.17.15:
-    resolution: {integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==}
-    dev: false
-
   /minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
@@ -137,12 +121,6 @@ packages:
     dependencies:
       brace-expansion: 2.0.1
     dev: true
-
-  /node-stdev@1.0.1:
-    resolution: {integrity: sha512-u/fWTpykqVova+YtnIIKAzvHYbLjonnHXgzzcfatJn+B4YiGN1EtAqRa02aqjvjtXPEhfG2hi9nRG6j15r8cnA==}
-    dependencies:
-      lodash: 4.17.15
-    dev: false
 
   /supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
