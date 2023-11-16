@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-literals",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.js dist/",
+    "bench": "NODE_ENV=production node dist/index.js"
+  },
+  "dependencies": {
+    "node-stdev": "^1.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ssr-benchmarks",
+  "version": "0.0.1",
+  "description": "Repo to test performance of various SSR approaches",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "pnpm --filter \"./methods/**\" build",
+    "bench:all": "node bench.js && node compile.js > result.md"
+  },
+  "keywords": [
+    "vanilla-ssr",
+    "vanilla-js",
+    "preact",
+    "react",
+    "ejs"
+  ],
+  "author": "Matt Czapliński",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ejs-simple",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.js dist/ && cp template.ejs dist/template.ejs",
+    "bench": "NODE_ENV=production node dist/index.js"
+  },
+  "devDependencies": {
+    "ejs": "3.1.9"
+  },
+  "dependencies": {
+    "node-stdev": "^1.0.1"
+  }
+}

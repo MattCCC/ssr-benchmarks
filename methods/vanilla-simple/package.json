@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-simple",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.js dist/ && cp template.html dist/template.html",
+    "bench": "NODE_ENV=production node dist/index.js"
+  },
+  "dependencies": {
+    "node-stdev": "^1.0.1"
+  }
+}
