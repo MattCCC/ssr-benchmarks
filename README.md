@@ -8,6 +8,7 @@ The following approaches are compared:
 2. Template Literals - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 3. Vanilla replacement (regex) - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
 4. Nunjucks - https://github.com/mozilla/nunjucks
+5. Handlebars - https://handlebarsjs.com/
 
 > Want to see the results? Go straight to [result.md](./result.md)
 

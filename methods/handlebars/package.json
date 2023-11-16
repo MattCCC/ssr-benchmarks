@@ -1,0 +1,11 @@
+{
+  "name": "handlebars",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.{js,html} dist/",
+    "bench": "NODE_ENV=production node dist/index.js"
+  },
+  "devDependencies": {
+    "handlebars": "4.7.8"
+  }
+}
